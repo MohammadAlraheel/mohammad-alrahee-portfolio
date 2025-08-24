@@ -1,3 +1,17 @@
+<script setup lang="ts">
+import { useImageStore } from "~/store/image";
+
+const store = useImageStore();
+store.getImage();
+
+const theImage = computed(() => {
+  return store.$state.images[0]?.fields.source.fields.file;
+});
+
+const loading = computed(() => {
+  return store.$state.imageLoading;
+})
+</script>
 <template>
   <section class="py-5">
       <div class="container">
@@ -12,7 +26,8 @@
           <div class="col-lg-5 position-relative">
               <div class="rounded-md overflow-hidden w-100 img-container">
                 <img
-                  src="~assets/img/sharif.alalem.photo.jpeg"
+                  v-if="theImage"
+                  :src="theImage.url"
                   alt="Sharif Alalem"
                   class="img-fluid hero-img w-100 position-relative"
                 >
