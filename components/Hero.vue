@@ -19,7 +19,16 @@ const loading = computed(() => {
           <div class="col-lg-7 my-auto">
             <div>
                 <p class="hero-text">
-                    <span>I’m Sharif, a Frontend Developer. I’ve always been drawn to <br/>  <span class="highlight">creativity</span> and technology — I started with a passion for <br/> helping others build <span class="highlight">clean, functional web experiences</span>, even before I knew how to code. Over time, I transitioned from exploring design tools to diving into JavaScript and building interfaces. Today, I focus on crafting modern, user-friendly applications using <span class="highlight"> Vue.js and React.</span></span>
+                <span>
+  I’m Mohammad Alraheel, a Network & System Engineer. I’ve always been fascinated by how technology 
+  connects people and keeps businesses running smoothly. I started out with a passion for 
+  <span class="highlight">solving technical problems</span> and ensuring systems stay 
+  <span class="highlight">secure and reliable</span>. Over time, I transitioned from handling 
+  day-to-day troubleshooting to <span class="highlight">designing, deploying, and maintaining 
+  scalable networks</span> and robust infrastructures. Today, with 7 years of experience, I focus on 
+  building <span class="highlight">efficient, secure, and high-performing systems</span> that 
+  empower teams to work without disruption.
+</span>
                 </p>
             </div>
           </div>
